@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/newspaper_posts_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_between_titleBar_and_view"
+            android:layout_marginRight="@dimen/margin_right"
+            android:focusable="true"
+            android:padding="@dimen/padding_of_view"
+            android:screenReaderFocusable="true">
+
+        </ListView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/newspaper_posts_btn_view_older_posts"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top_between_two_view"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="35dp"
+            android:focusable="true"
+            android:padding="@dimen/padding_of_view"
+            android:screenReaderFocusable="true"
+            android:text="@string/newspaper_btn_view_older_posts"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size"
+            app:cornerRadius="5dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

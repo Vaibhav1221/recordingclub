@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default strings -->
+    <string name="default_error">Something went wrong. Please try again.</string>
+    <string name="default_server_error">We are not able to communicate with our servers. Please try again.</string>
+    <string name="default_internet_alert_dialog_title">No internet:</string>
+    <string name="default_internet_alert_dialog_text">Unfortunately, You are not connected with the internet.</string>
+    <string name="default_clear_message">Informations are cleared.</string>
+    <string name="default_no_informations">Informations are mandatory.\nPlease provide informations and try again.</string>
+    <string name="default_error_text">Error:</string>
+    <string name="default_success_title">Success:</string>
+    <string name="default_clipboard_message">Text is copied to clipboard successfully.</string>
+
+    <!-- Profile strings -->
+    <string name="profile_first_name">First Name:</string>
+    <string name="profile_last_name">Last Name:</string>
+    <string name="profile_email_address">Email Address:</string>
+    <string name="profile_phone_number">Phone Number:</string>
+    <string name="profile_user_name">User Name:</string>
+    <string name="profile_user_password">Password:</string>
+    <string name="profile_date_of_birth">Date of birth:</string>
+    <string name="profile_gender">Gender:</string>
+    <string name="profile_country">Country:</string>
+    <string name="profile_female">Female</string>
+    <string name="profile_male">Male</string>
+
+    <!-- Button strings -->
+    <string name="btn_next">Next</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_verify">Verify</string>
+    <string name="btn_allow">Allow</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_login">Login with google</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_rewind">Rewind 10 seconds</string>
+    <string name="btn_fast_forward">Fast-Forward 10 seconds</string>
+    <string name="btn_playback_speed">Playback speed</string>
+    <string name="btn_choose_date_of_birth">Choose date of birth</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_upload">Upload</string>
+    <string name="btn_previous">Previous</string>
+
+    <!-- Menu string -->
+    <string name="menu_copy">Copy</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_save_to_notepad">Save to notepad</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_translate">Translate</string>
+
+    <!-- General strings -->
+    <string name="str_file_name">File name:</string>
+    <string name="str_file_body">Body:</string>
+</resources>

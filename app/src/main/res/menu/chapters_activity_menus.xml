@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/send_feedback_menu"
+        android:orderInCategory="100"
+        android:title="Send Feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/m2_add_library"
+        android:orderInCategory="101"
+        android:title="Add To My Library"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/refresh_chaptrs"
+        android:orderInCategory="102"
+        android:title="Refresh"
+        app:showAsAction="never" />
+
+</menu>

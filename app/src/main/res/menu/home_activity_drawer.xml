@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/home_nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/library_nav_menu"
+            android:title="My Library" />
+
+        <item android:title="Account">
+            <menu>
+                <item
+                    android:id="@+id/home_nav_account"
+                    android:title="My Account" />
+            </menu>
+        </item>
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/home_nav_osmp"
+                    android:title="Our Social Media Platforms" />
+                <item
+                    android:id="@+id/home_nav_contact_us"
+                    android:title="Contact Us" />
+                <item
+                    android:id="@+id/home_nav_about_us"
+                    android:title="About Us" />
+                <item
+                    android:id="@+id/home_nav_pp"
+                    android:title="Privacy Policy" />
+                <item
+                    android:id="@+id/share_f"
+                    android:title="Share App" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

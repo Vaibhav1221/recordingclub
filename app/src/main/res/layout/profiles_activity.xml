@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/background_screen_color"
+    android:orientation="vertical"
+    tools:context=".rc_matrimonial.Profiles">
+
+    <ListView
+        android:id="@+id/profiles_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusable="true"
+        android:screenReaderFocusable="true">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color"
+    android:orientation="vertical"
+    tools:context=".admin.ChangeUserRole">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_change_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="15dp"
+        android:padding="3dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_roll_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:inputType="textEmailAddress"
+            android:maxLength="100"
+            android:nestedScrollingEnabled="true"
+            android:screenReaderFocusable="true"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spinner_roll"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:focusable="true"
+        android:padding="2dp"
+        android:screenReaderFocusable="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/change_roll_btn"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="35dp"
+        android:focusable="true"
+        android:padding="3dp"
+        android:screenReaderFocusable="true"
+        android:text="Change"
+        android:textAllCaps="false" />
+
+</LinearLayout>

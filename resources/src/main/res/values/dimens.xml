@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_of_view">3dp</dimen>
+    <dimen name="margin_left">5dp</dimen>
+    <dimen name="margin_between_titleBar_and_view">20dp</dimen>
+    <dimen name="margin_horizontal_between_two_views">20dp</dimen>
+    <dimen name="margin_top_between_two_view">15dp</dimen>
+    <dimen name="margin_right">5dp</dimen>
+    <dimen name="margin_bottom">7dp</dimen>
+
+    <dimen name="button_height">70dp</dimen>
+    <dimen name="button_width">95dp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="edit_text_left_margin">10dp</dimen>
+    <dimen name="edit_text_right_margin">10dp</dimen>
+    <dimen name="edit_text_height">80dp</dimen>
+    <dimen name="text_view_text_size">20sp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_view_height">60dp</dimen>
+    <dimen name="button_bottom_margin">7dp</dimen>
+    <dimen name="p_btn_width">72dp</dimen>
+</resources>

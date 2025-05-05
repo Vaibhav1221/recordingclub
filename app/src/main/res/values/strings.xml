@@ -1,0 +1,111 @@
+<resources>
+
+    <string name="app_name">Recording Club</string>
+
+    <!-- MainActivity -->
+    <string name="main_tv_1">Welcome to Recording Club!</string>
+    <string name="main_tv_2">You\'ll have to use your google account to get signed-in in our app.</string>
+    <string name="menu_home">Home</string>
+
+    <!-- Account -->
+    <string name="account_btn_newspaper_manager">Newspaper manager</string>
+    <string name="account_btn_audio_books_manager">Audio books manager</string>
+    <string name="account_tv_1">User name:</string>
+    <string name="account_tv_2">Email address:</string>
+
+    <!-- Newspapers -->
+    <string name="newspaper_name">Newspaper name:</string>
+    <string name="newspaper_title">Newspaper title:</string>
+    <string name="newspaper_btn_view_older_posts">View older posts</string>
+
+    <!-- Audio Books -->
+    <string name="audio_books_name">Book title:</string>
+    <string name="audio_books_description">Book description:</string>
+    <string name="audio_books_category">Category:</string>
+    <string name="audio_books_parent_category_name">Parent category:</string>
+    <string name="audio_books_chapter_title">Chapter title:</string>
+    <string name="audio_books_chapter_file_link">Chapter file link:</string>
+    <string name="fd_heading">Give your suggestion related to this audio book</string>
+    <string name="fd_paragraph">
+        Your suggestion will help us to improve our service. Feel free to share your ideas and suggestions related to this audio. We will work on it.
+    </string>
+
+    <!-- RC Matrimonial Meet -->
+    <string name="rmm_full_name">Full name:</string>
+    <string name="rmm_job_profile">Job Profile:</string>
+    <string name="rmm_city">City:</string>
+    <string name="rmm_state">State:</string>
+    <string name="rmm_pin_code">Pin code:</string>
+    <string name="rmm_height">Height:</string>
+    <string name="rmm_weight">Weight:</string>
+    <string name="rmm_complexion">Complexion:</string>
+    <string name="rmm_disability_type">Disability type:</string>
+    <string name="rmm_disability_percentage">Disability percentage:</string>
+    <string name="rmm_cast">Cast:</string>
+    <string name="rmm_religion">Religion:</string>
+    <string name="rmm_annual_income">Annual income:</string>
+    <string name="rmm_partner_preference">Partner preference:</string>
+    <string name="rmm_upload_photo">Upload your photo</string>
+
+    <!-- Be My Writer -->
+    <string name="bmw_text">
+        Recording Club makes efforts to ease various issues related to examination for visually challenged students. Arrangment of scribe for exams is one such crucial challenge faced by blind examinees. We endeavour to provide a scribe on request from concerned persons.
+If you need a scribe for your examination, kindly fill up the following form
+    </string>
+    <string name="bmw_ceq">Candidate education qualification:</string>
+    <string name="bmw_examination_name">Examination name:</string>
+    <string name="bmw_examination_time">Examination time</string>
+    <string name="bmw_examination_date">Examination date</string>
+    <string name="bmw_examination_centre">Examination centre:</string>
+    <string name="bmw_examination_city">Examination city:</string>
+    <string name="bmw_examination_state">Examination state:</string>
+    <string name="bmw_disability_certificate">Upload disability certificate</string>
+
+    <!-- Notification -->
+    <string name="default_notification_channel_id">Recording Club Notification</string>
+    <string name="default_notification_channel_name">Recording Club</string>
+    <string name="default_notification_channel_description">Recording Club Notification Service.</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us_text">
+        You may kindly contact at our office No. 7737868659 or 0145 3566471 between Monday to Friday from 12 P.M. to 6 P.M.
+You may also write your queries at our email on recordingclub2016@gmail.com
+    </string>
+    <string name="contact_us_website">Our website</string>
+    <string name="contact_us_cp">Call to phone</string>
+    <string name="contact_us_cl">Call to landline</string>
+
+    <!--subscription-->
+    <string name="subscription_heading">Recording Club Yearly Subscription</string>
+
+    <string name="renew_tv_msg">Hello user,\n Your subscription for Recording Club app has been expired.\nPlease renew your subscription to continue enjoying services.</string>
+    <string name="subscription_discription">
+        Recording Club strives to break the barriers of inaccessibility in learning and taking examinations.<br />
+Recording Club App provides books, magazines and newspapers of national repute in different languages in audible accessible format for the benefit of visually challenged persons including students and learners.<br />
+All the services provided by this App are offered at reasonably cheaper price. In addition, the members of the App may take part in the matrimonial meets organised by Recording Club and may request for arrangment of a scribe.<br />
+It is a unique App which hosts different sorts of study materials on one platform for the better user experience of visually challenged community. With the small affordable amount for the services of this App, you will contribute to the larger interest of accessibility as we are working with the minimum resource for the maximum benefits of our members.
+    </string>
+    <string name="wlc_sub_msg">
+        Welcome to Recording Club! We\'re thrilled to have you as a new user. Our app is dedicated to providing recorded newspapers and audio books to the visually impaired community. With a subscription to Recording Club, you\'ll have access to a wide variety of content that will help you stay informed and entertained. The subscription price is 449. Enjoy the benefits of our service and let us know if there\'s anything we can do to improve your experience. Thanks for joining!
+    </string>
+    <string name="sub_buy_msg">
+        You will need to purchase a subscription to proceed to access all the features
+    </string>
+
+    <!--RC player-->
+    <string name="btn_next">Next</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_replay">Replay</string>
+    <string name="btn_rewind">Rewind 10 seconds</string>
+    <string name="btn_fast_forward">Fast-Forward 10 seconds</string>
+    <string name="btn_playback_speed">Playback speed</string>
+    <string name="btn_previous">Previous</string>
+    <string name="menu_auto_play">Auto Play Off</string>
+    <string name="menu_playback_speed">Playback Speed</string>
+    <string name="menu_fast_forward_increment">Fast Forward Increment</string>
+    <string name="menu_rewind_decrement">Rewind Decrement</string>
+    <string name="title_rc_player">RC Player</string>
+    <string name="menu_delete">Delete</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:linksClickable="true"
+            android:padding="3dp"
+            android:screenReaderFocusable="true"
+            android:text="@string/contact_us_text"
+            android:textAlignment="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/contact_us_btn_website"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="@dimen/margin_right"
+            android:focusable="true"
+            android:padding="@dimen/padding_of_view"
+            android:screenReaderFocusable="true"
+            android:text="@string/contact_us_website"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/contact_us_btn_cp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top_between_two_view"
+            android:layout_marginRight="@dimen/margin_right"
+            android:focusable="true"
+            android:padding="@dimen/padding_of_view"
+            android:screenReaderFocusable="true"
+            android:text="@string/contact_us_cp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/contact_us_btn_cl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginTop="@dimen/margin_top_between_two_view"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:focusable="true"
+            android:padding="@dimen/padding_of_view"
+            android:screenReaderFocusable="true"
+            android:text="@string/contact_us_cl"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

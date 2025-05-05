@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_between_titleBar_and_view"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:minHeight="@dimen/default_view_height"
+                android:padding="@dimen/padding_of_view"
+                android:screenReaderFocusable="true"
+                android:text="Welcome to the world of hearing and believing.
+Individuals have been deprived of reading due to various reasons.
+A. Poverty and illiteracy.
+Busy schedules and laziness.
+C. Lack of appropriate assistive technology assential for a person with a disability, particularly a visual disability.
+Just the way seeing is believing, similarly for a person with a visual disability hearing is believing.
+How would it be to have a reader asa multi tasker? What if this reader could not only read out an article from a news paper, a story from a book but could
+also help with your studies on a daily basis?
+Here is what we have. We the members of Recording club have created a one stop platform a variety of story books, school and university level study material
+and newspapers such as The Hindu, The Times of India, Dainik Bhaskar etc.
+Medium
+Our books and news papers are available in English and Hindi depending on the need of our visually challenged friends.
+Type of format available
+Keeping in mind the needs of a visually challenged we have material which is accessable not only in the form of audios but also in the form of a pdf that
+can be red with the help of a TTS.
+To know more stay tuned!"
+                android:textSize="@dimen/text_view_text_size" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

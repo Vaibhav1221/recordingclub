@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color"
+
+    android:orientation="vertical"
+    tools:context=".admin.m_profiles_manager.Create_New_Profile">
+
+    <EditText
+        android:id="@+id/create_profile_title"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="6dp"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:padding="5dp"
+        android:screenReaderFocusable="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/create_select_file"
+        android:layout_width="91dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/button_background_color"
+        android:focusable="true"
+        android:screenReaderFocusable="true"
+        android:text="Select File"
+        android:textColor="@color/button_text_color" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/create_upload_btn"
+        android:layout_width="91dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/button_background_color"
+        android:focusable="true"
+        android:screenReaderFocusable="true"
+        android:text="Upload Profile"
+        android:textColor="@color/button_text_color" />
+
+</LinearLayout>

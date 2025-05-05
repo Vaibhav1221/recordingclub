@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="newspaper_manager_features">
+        <item>Create newspaper</item>
+        <item>Create newspaper daily post</item>
+        <item>Delete Newspaper</item>
+    </string-array>
+
+    <string-array name="audio_books_manager_features">
+        <item>Create root category</item>
+        <item>Create sub category</item>
+        <item>Create audio book</item>
+        <item>Create chapter</item>
+        <item>Delete Book</item>
+        <item>Delete Chapter</item>
+    </string-array>
+
+    <string-array name="main_features">
+        <item>Newspapers</item>
+        <item>Audio Books</item>
+        <item>Hamrahi.com</item>
+    </string-array>
+
+    <string-array name="social_media_platforms">
+        <item>Join WhatsApp group</item>
+        <item>Join Help Group</item>
+        <item>YouTube channel</item>
+        <item>Facebook page</item>
+    </string-array>
+
+    <string-array name="plans">
+        <item>Select Plan:</item>
+        <item>Monthly Plan (49)</item>
+        <item>Anual Plan (499)</item>
+    </string-array>
+
+</resources>

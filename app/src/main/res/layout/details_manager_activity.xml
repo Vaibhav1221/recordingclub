@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color"
+    android:orientation="vertical"
+    tools:context=".admin.DetailsManager">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dm_get_free_users"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:focusable="true"
+            android:padding="3dp"
+            android:screenReaderFocusable="true"
+            android:text="See All Free Users"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/dm_seaallusers"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:focusable="true"
+            android:padding="3dp"
+            android:screenReaderFocusable="true"
+            android:text="Sea all users"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/dm_seaallsubscribers"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:focusable="true"
+            android:padding="3dp"
+            android:screenReaderFocusable="true"
+            android:text="Sea all subscribers"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

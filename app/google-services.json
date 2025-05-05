@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "573496280529",
+    "project_id": "recording-club-49aae",
+    "storage_bucket": "recording-club-49aae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573496280529:android:3fc4973ef707579eed8cf0",
+        "android_client_info": {
+          "package_name": "in.recordingclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573496280529-2u5jup8k66f9b4ek1qcurh6umt9v7ot5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.recordingclub",
+            "certificate_hash": "9f72fca9eac2cab935e032009b13260352d40242"
+          }
+        },
+        {
+          "client_id": "573496280529-84itcvibmr085fv2qisr6c08tmun55tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.recordingclub",
+            "certificate_hash": "4e8a4b1a47f68ff6653743ad2c086979326c82db"
+          }
+        },
+        {
+          "client_id": "573496280529-e33ssjce443noefnm0a811kacrnpsd6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.recordingclub",
+            "certificate_hash": "7b3688226123320d0b3655768feff9d6a1128d70"
+          }
+        },
+        {
+          "client_id": "573496280529-h4v8h8u1ea52jj2d4um8uaucb2i2euf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyeFj61kzKlQ2IHzrddBEflNOGEq3qeQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573496280529-h4v8h8u1ea52jj2d4um8uaucb2i2euf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

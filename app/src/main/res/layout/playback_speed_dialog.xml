@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_screen_color"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/speed_0.5x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.5x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_0.7x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.75x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_1.0x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="1.0x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_1.25x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.25x"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_1.5x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.5x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_1.75x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.75x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_2.0x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.0x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_2.25x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.25x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_2.5x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.5x"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/speed_2.75x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.75x"
+            android:textSize="18sp" />
+        1
+
+        <RadioButton
+            android:id="@+id/speed_3.0x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.0x"
+            android:textSize="18sp" />
+    </RadioGroup>
+</LinearLayout>

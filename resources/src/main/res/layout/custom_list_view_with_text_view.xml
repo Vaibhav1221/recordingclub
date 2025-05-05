@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_list_view_tv"
+        android:focusable="true"
+        android:screenReaderFocusable="true"
+        android:textSize="21sp"
+        android:textAlignment="center"
+        android:textColor="#b60011"
+        android:background="@drawable/blue_tv_box"
+        android:padding="@dimen/padding_of_view"
+        android:layout_marginTop="@dimen/margin_top_between_two_view"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        />
+
+</LinearLayout>

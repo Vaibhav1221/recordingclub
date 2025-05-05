@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color"
+    android:orientation="vertical"
+    tools:context=".audio_books.SendFeedback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="5dp"
+        android:accessibilityHeading="true"
+        android:padding="3dp"
+        android:screenReaderFocusable="true"
+        android:text="@string/fd_heading"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:padding="3dp"
+        android:screenReaderFocusable="true"
+        android:text="@string/fd_paragraph"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fd_edt_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:focusable="true"
+        android:minHeight="100dp"
+        android:padding="3dp"
+        android:screenReaderFocusable="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fd_edt_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textCapSentences|textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fd_send_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="50dp"
+        android:focusable="true"
+        android:padding="3dp"
+        android:screenReaderFocusable="true"
+        android:text="Send Feedback"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:cornerRadius="5dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+</LinearLayout>

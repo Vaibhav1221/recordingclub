@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@+id/home_nav_home">
+
+    <fragment
+        android:id="@+id/home_nav_home"
+        android:name="in.recordingclub.home.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/library_nav_menu"
+        android:name="in.recordingclub.home.ui.Library"
+        android:label="My Library"
+        tools:layout="@layout/library_layout" />
+
+    <fragment
+        android:id="@+id/home_nav_account"
+        android:name="in.recordingclub.home.ui.AccountFragment"
+        android:label="My Account"
+        tools:layout="@layout/account_fragment" />
+    <fragment
+        android:id="@+id/home_nav_osmp"
+        android:name="in.recordingclub.home.ui.OurSocialMediaPlatformsFragment"
+        android:label="Our Social Media Platforms"
+        tools:layout="@layout/our_social_media_platforms_fragment" />
+
+    <fragment
+        android:id="@+id/home_nav_contact_us"
+        android:name="in.recordingclub.home.ui.ContactUsFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/contact_us_fragment" />
+
+    <fragment
+        android:id="@+id/home_nav_about_us"
+        android:name="in.recordingclub.home.ui.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/about_us_fragment" />
+
+    <fragment
+        android:id="@+id/home_nav_pp"
+        android:name="in.recordingclub.home.ui.PrivacyPolicyFragment"
+        android:label="Privacy Policy"
+        tools:layout="@layout/privacy_policy_fragment" />
+
+    <fragment
+        android:id="@+id/share_f"
+        android:name="in.recordingclub.home.ui.ShareApp"
+        android:label="Share App"
+        tools:layout="@layout/share_app" />
+</navigation>

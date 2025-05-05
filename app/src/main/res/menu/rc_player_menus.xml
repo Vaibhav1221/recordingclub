@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chapter_contents"
+        android:orderInCategory="101"
+        android:title="Table of contents"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/rc_player_menu_auto_play"
+        android:actionViewClass="com.google.android.material.button.MaterialButton"
+        android:orderInCategory="100"
+        android:title="@string/menu_auto_play"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/rc_player_menu_rewind"
+        android:orderInCategory="103"
+        android:title="@string/menu_rewind_decrement"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rc_player_menu_playback_speed"
+        android:actionViewClass="com.google.android.material.button.MaterialButton"
+        android:orderInCategory="102"
+        android:title="@string/menu_playback_speed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rc_player_menu_fast_forward"
+        android:orderInCategory="104"
+        android:title="@string/menu_fast_forward_increment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rc_player_menu_delete"
+        android:orderInCategory="105"
+android:title="@string/menu_delete"
+        app:showAsAction="never" />
+</menu>

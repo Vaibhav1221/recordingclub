@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_screen_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_view_height"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="@dimen/margin_right"
+                android:accessibilityHeading="true"
+                android:padding="@dimen/padding_of_view"
+                android:screenReaderFocusable="true"
+                android:text="@string/account_tv_1"
+                android:textAlignment="center"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_view_text_size" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/account_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_view_height"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top_between_two_view"
+                android:layout_marginRight="@dimen/margin_right"
+                android:padding="@dimen/padding_of_view"
+                android:screenReaderFocusable="true"
+                android:textAlignment="center"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_view_text_size" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_view_height"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top_between_two_view"
+                android:layout_marginRight="@dimen/margin_right"
+                android:accessibilityHeading="true"
+                android:padding="@dimen/padding_of_view"
+                android:screenReaderFocusable="true"
+                android:text="@string/account_tv_2"
+                android:textAlignment="center"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_view_text_size" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/account_tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_view_height"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top_between_two_view"
+                android:layout_marginRight="@dimen/margin_right"
+                android:padding="@dimen/padding_of_view"
+                android:screenReaderFocusable="true"
+                android:textAlignment="center"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_view_text_size" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/default_view_height"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top_between_two_view"
+                android:layout_marginRight="@dimen/margin_right"
+                android:padding="@dimen/padding_of_view"
+                android:screenReaderFocusable="true"
+                android:textAlignment="center"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_view_text_size" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/logout_account_1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:focusable="true"
+                android:padding="5dp"
+                android:screenReaderFocusable="true"
+                android:text="Logout Account" />
+
+            <LinearLayout
+                android:id="@+id/account_admin_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <!-- First Line -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/account_admin_btn_audio_books_manager"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="@string/account_btn_audio_books_manager"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/account_change_role_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="Change User Role"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+                </LinearLayout>
+
+                <!-- Second Line -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:weightSum="2">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/account_admin_btn_newspaper_manager"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="@string/account_btn_newspaper_manager"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/m_profiles_manager"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="M Profiles Manager"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+                </LinearLayout>
+
+                <!-- Third Line -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:weightSum="2">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/send_notification_btn_admin"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="Send Notification"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/admin_details_manager"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="Details Manager"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+                </LinearLayout>
+
+                <!-- Fourth Line -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:weightSum="2">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/admin_give_subscription"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="Give Subscription"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/uploading_panel_web_view"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:padding="@dimen/padding_of_view"
+                        android:screenReaderFocusable="true"
+                        android:text="Log Out Account"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/button_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
