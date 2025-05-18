@@ -2,10 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item
+        android:id="@+id/recently_uploaded_menu"
+        android:orderInCategory="100"
+        android:title="Recently uploaded"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/refresh_sub_categories_menu"
-        android:orderInCategory="100"
+        android:orderInCategory="101"
         android:title="Refresh"
         app:showAsAction="never" />
 

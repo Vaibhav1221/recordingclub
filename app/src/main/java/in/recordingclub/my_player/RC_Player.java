@@ -109,7 +109,7 @@ requestForBackgroundAccess();
 
 try {
     Intent intent = getIntent();
-    isBook = intent.getBooleanExtra("isBook", true);
+    isBook = intent.getBooleanExtra("isBook", false);
 } catch (Exception e) {
     Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 }

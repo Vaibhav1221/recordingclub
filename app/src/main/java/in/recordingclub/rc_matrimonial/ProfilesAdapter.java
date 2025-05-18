@@ -51,6 +51,7 @@ public class ProfilesAdapter extends ArrayAdapter<String> {
                 intent.putExtra("file", profile_file_link);
                 intent.putExtra("file_title", profile_title);
                 intent.putExtra("current_position", position);
+intent.putExtra("isBook", false);
                 activity.startActivity(intent);
             }
         });

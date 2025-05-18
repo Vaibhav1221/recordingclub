@@ -14,6 +14,7 @@ import androidx.annotation.Nullable;
 import com.google.android.material.button.MaterialButton;
 
 import in.recordingclub.audio_books.AudioBooksActivity;
+import in.recordingclub.books.MainBookActivity;
 import in.recordingclub.newspapers.NewspaperActivity;
 import in.recordingclub.rc_matrimonial.Profiles;
 
@@ -42,7 +43,7 @@ public class HomeAdapter extends ArrayAdapter<String> {
                 if (feature_name.equals("Newspapers")) {
                     activity.startActivity(new Intent(activity, NewspaperActivity.class));
                 } else if (feature_name.equals("Audio Books")) {
-                    activity.startActivity(new Intent(activity, AudioBooksActivity.class));
+                    activity.startActivity(new Intent(getContext(), MainBookActivity.class));
                 } else if (feature_name.equals("Hamrahi.com")) {
                     activity.startActivity(new Intent(getContext(), Profiles.class));
                 }

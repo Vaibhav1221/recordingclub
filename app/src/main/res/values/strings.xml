@@ -107,5 +107,7 @@ It is a unique App which hosts different sorts of study materials on one platfor
     <string name="menu_rewind_decrement">Rewind Decrement</string>
     <string name="title_rc_player">RC Player</string>
     <string name="menu_delete">Delete</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

@@ -11,7 +11,6 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
 
-
     <application
         android:name="com.videvelopers.app.vuh.app_components.AppCore"
         android:allowBackup="true"
@@ -23,6 +22,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecordingClub"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".books.MainBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".books.BookCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".books.BooksActivity"
+            android:exported="false" />
         <activity
             android:name=".audio_books.activities.RecentlyUploadedBooksActivity"
             android:exported="false" />
